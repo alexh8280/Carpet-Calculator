@@ -52,8 +52,7 @@ public class CarpetCalculator implements Calculatable {
 	
 	
 	public String getTotalCost() {
-		float pricePerSquareFoot = this.pricePerSquareFoot;
-		float installationCharge = this.installationCharge;
+
 		int sum = 0;
 		for (Integer room : rooms) {
             sum += room;
